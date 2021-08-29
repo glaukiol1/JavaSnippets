@@ -1,12 +1,6 @@
 package com.company;
 
 public class JavaDurationString {
-    public static void main(String[] args) {
-        System.out.println(
-                getDurationString(3500)
-        );
-    }
-
     public static String getDurationString(int minutes, int seconds) {
         if (minutes >= 0 && seconds >= 0 && seconds <= 59) {
             int hours = minutes / 60;
